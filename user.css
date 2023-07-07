@@ -1,0 +1,68 @@
+table {
+     border : 100px;
+     font-family : Italian;
+     width : 90%;
+     height : 100%;
+     border-collapse : collapse;
+     border-color : White;
+     }
+
+th {
+   border : 10px;
+   border: 1px solid black;
+   text-align : center;
+   border-color : White;
+   padding : 50px;
+   font-size : 25px;
+   color : White;
+    }
+
+td {
+   border : 10px;
+   border: 1px solid black;
+   text-align : center;
+   padding : 25px;
+   color : White;
+   font-size : 20px;
+   border-color : White;
+   }
+
+ tr {
+    background-color : Black;
+    }
+
+ h2 {
+    text-align : left;
+    }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 50;
+  top: 50;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-content {
+  background-color: white;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid;
+  width: 35%;
+  font-size: 20px;
+}
+
+.close-button {
+  color : red;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  cursor: pointer;
+}
